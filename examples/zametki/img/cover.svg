@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <rect width="600" height="900" fill="#1f2a44"/>
+  <rect x="40" y="40" width="520" height="820" fill="none" stroke="#f2b84b" stroke-width="4"/>
+  <g font-family="monospace" fill="#3d4a6b" font-size="22">
+    <text x="70" y="140">def learn():</text>
+    <text x="100" y="175">while True:</text>
+    <text x="130" y="210">practice()</text>
+    <text x="130" y="245">read_code()</text>
+    <text x="130" y="280">commit()</text>
+  </g>
+  <text x="300" y="470" text-anchor="middle" font-family="serif" font-size="58" fill="#f6f1e7">Заметки</text>
+  <text x="300" y="540" text-anchor="middle" font-family="serif" font-size="40" fill="#f6f1e7">начинающего</text>
+  <text x="300" y="600" text-anchor="middle" font-family="serif" font-size="40" fill="#f6f1e7">программиста</text>
+  <text x="300" y="800" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#f2b84b">whysafe</text>
+</svg>

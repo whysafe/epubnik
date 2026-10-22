@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epubnik"
+version = "1.0.0"
+description = "Markdown-главы в книгу EPUB 3 без зависимостей"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "whysafe" }]
+dependencies = []
+
+[project.scripts]
+epubnik = "epubnik.cli:main"
+
+[tool.setuptools]
+packages = ["epubnik"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
